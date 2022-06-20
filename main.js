@@ -21,8 +21,7 @@ const renderPosts = (posts) => {
     postsList.innerHTML = output;
 }
 
-const url = 'https://reqres.in/api/users';
-//const url = 'http://localhost:4000/users';
+const url = 'http://localhost:4000/users';
 
 //Get - read the posts
 // Method: GET
